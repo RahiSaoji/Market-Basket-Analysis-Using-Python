@@ -82,9 +82,6 @@ Let us take an example from Amazon, the world’s largest eCommerce platform. Fr
 
 In this implementation, we have to use the Store Data dataset that is publicly available on Kaggle. This dataset contains a total of 7501 transaction records where every record consists of the list of items sold in just one transaction.
 
-https://github.com/Debasishsaha123/MARKET-BASKET-ANALYSIS/blob/main/Market_Basket_Optimisation%20(1).csv
-
-
        all_items = data.melt()["value"].dropna().sort_values()
        print(f"There were {all_items.nunique()} different products:\n", all_items.unique())
        
